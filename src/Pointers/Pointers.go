@@ -6,22 +6,22 @@ func main() {
 	numberValue := 42
 	numberPointer := &numberValue
 
-	fmt.Println("number",numberValue)
-	fmt.Println("pointer",numberPointer)
+	fmt.Println("number", numberValue)
+	fmt.Println("pointer", numberPointer)
 
 	fmt.Println()
 	fmt.Println("Set number")
 	numberValue = 32
 
-	fmt.Println("number",numberValue)
-	fmt.Println("pointer",numberPointer)
+	fmt.Println("number", numberValue)
+	fmt.Println("pointer", numberPointer)
 
 	fmt.Println()
 	fmt.Println("Set pointer value")
 	*numberPointer = 52
 
 	fmt.Println(numberValue)
-	fmt.Println("pointer",numberPointer)
+	fmt.Println("pointer", numberPointer)
 
 	fmt.Println()
 
@@ -53,8 +53,6 @@ func main() {
 	fooPointer(&answer)
 	fmt.Println("answer after", &answer)
 	fmt.Println("answer after", answer)
-
-
 
 	/*
 		Can pointers negatively affect performance?

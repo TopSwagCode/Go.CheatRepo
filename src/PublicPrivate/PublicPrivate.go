@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TopSwagCode.Go/PublicPrivate/Fruits"
+	"./Fruits"
 	"encoding/json"
 	"fmt"
 )
@@ -21,8 +21,7 @@ func main() {
 	}
 	Fruits.PrintFruit(apple)
 
-	orange := Fruits.Orange{
-	}
+	orange := Fruits.Orange{}
 	Fruits.PrintFruit(orange)
 
 	passionFruit := PassionFruit{
@@ -34,18 +33,17 @@ func main() {
 	fmt.Println()
 
 	bJson, _ := json.Marshal(banana)
-	fmt.Println("Banana:",string(bJson))
+	fmt.Println("Banana:", string(bJson))
 
 	aJson, _ := json.Marshal(apple)
-	fmt.Println("Apple",string(aJson))
+	fmt.Println("Apple", string(aJson))
 
 	oJson, _ := json.Marshal(orange)
-	fmt.Println("Orange",string(oJson))
+	fmt.Println("Orange", string(oJson))
 
 	pfJson, _ := json.Marshal(passionFruit)
-	fmt.Println("Passion fruit",string(pfJson))
+	fmt.Println("Passion fruit", string(pfJson))
 }
-
 
 type PassionFruit struct {
 	colour string

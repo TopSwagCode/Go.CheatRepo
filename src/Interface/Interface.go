@@ -48,7 +48,7 @@ func main() {
 
 	measure(r)
 	measure(c)
-	
+
 	//p := Point{ X:1, Y:2}
 	//measure(p) <-- Compiler error. Type does not implement Geometry.
 }

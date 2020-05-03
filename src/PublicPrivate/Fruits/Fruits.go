@@ -53,7 +53,7 @@ func (o Orange) GetColour() string {
 
 func PrintFruit(f Fruit) {
 	fmt.Printf("Type: %T", f)
-	fmt.Print(" Colour: ",f.GetColour())
-	fmt.Print(" Weight: ",f.GetWeight())
+	fmt.Print(" Colour: ", f.GetColour())
+	fmt.Print(" Weight: ", f.GetWeight())
 	fmt.Println()
 }

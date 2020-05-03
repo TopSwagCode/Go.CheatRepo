@@ -16,7 +16,7 @@ func main() {
 	fmt.Println()
 
 	fmt.Println("Named returns ->")
-	fmt.Println(addV3(1,4))
+	fmt.Println(addV3(1, 4))
 
 }
 
@@ -32,7 +32,7 @@ func swap(x, y string) (string, string) {
 	return y, x
 }
 
-func addV3(x, y int)  (sum int){
-	sum = x+y
+func addV3(x, y int) (sum int) {
+	sum = x + y
 	return // This returns the named return value sum
 }

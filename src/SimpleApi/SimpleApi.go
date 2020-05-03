@@ -6,17 +6,25 @@ import (
 	"net/http"
 )
 
+func main() {
+	http.HandleFunc("/api/point", pointHandler)
+	http.HandleFunc("/api/blabla", blablaHandler)
+	//http.HandleFunc("/api/...", ...Handler)
+
+	http.ListenAndServe(":8080", nil)
+}
+
 // The `json:"whatever"` bit is a way to tell the JSON
 // encoder and decoder to use those names instead of the
 // capitalised names
 type Point struct {
 	X int `json:"x"`
-	Y  int    `json:"y"`
+	Y int `json:"y"`
 }
 
 var point *Point = &Point{
 	X: 3,
-	Y:  28,
+	Y: 28,
 }
 
 func pointHandler(w http.ResponseWriter, r *http.Request) {
@@ -57,12 +65,4 @@ func blablaHandler(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusMethodNotAllowed)
 		fmt.Fprintf(w, "I can't do that.")
 	}
-}
-
-func main() {
-	http.HandleFunc("/api/point", pointHandler)
-	http.HandleFunc("/api/blabla", blablaHandler)
-	//http.HandleFunc("/api/...", ...Handler)
-
-	http.ListenAndServe(":8080", nil)
 }

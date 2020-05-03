@@ -45,7 +45,6 @@ func main() {
 
 }
 
-
 func StartTimer(name string) func() {
 	t := time.Now()
 	fmt.Println(name, "started")
