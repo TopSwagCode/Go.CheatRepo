@@ -7,7 +7,7 @@ TLDR:
 * func has to have (t *testing.T) as parameter
 * To run tests type: ```$ go test``` in the terminal
 
-You can use T for failing your test. Skip tests and a lot more. Try playing with it. 2 Quick examples can be seen below. One failing test and a skipped test.
+You can use "t" for failing your test. Skip tests and a lot more. Try playing around with it. 2 Quick examples can be seen below. One failing test and a skipped test.
 
 ```Go
 func TestThat1IsBiggerThan2(t *testing.T) {
