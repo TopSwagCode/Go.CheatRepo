@@ -6,7 +6,14 @@ I made this because I "hate" going through long and slow tutorials / blog posts 
 
 So I went ahead and created this repository to help other people getting started with go with a bunch of code samples, showing of some of the features of Go. Below is a screenshow of the current progress of the project.
 
-![current progress](currentprogress.png)
+Current Sections:
+
+* [Array](src/Array)
+*
+*
+*
+*
+* 
 
 # Roadmap
 
