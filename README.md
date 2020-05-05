@@ -8,25 +8,63 @@ So I went ahead and created this repository to help other people getting started
 
 Current Sections:
 
-* [Array](src/Array)
-* [Basics](src/Basics)  :heavy_check_mark:
-* [Cli](src/Cli) *Inprogress*
-* [Defer](src/Defer) *Inprogress*
-* [For](src/For) *Inprogress*
-* [Functions](src/Functions) *Inprogress*
-* [HelloWorld](src/HelloWorld) *Inprogress*
-* [If](src/If) *Inprogress*
-* [Imports](src/Imports) *Inprogress*
-* [Interface](src/Interface) *Inprogress*
-* [Map](src/Map) *Inprogress*
-* [Mocking](src/Mocking) *Inprogress*
-* [OnlineImports](src/OnlineImports) *Inprogress*
-* [Pointers](src/Pointers) *Inprogress*
-* [PublicPrivate](src/PublicPrivate) *Inprogress*
-* [SimpleApi](src/SimpleApi) *Inprogress*
-* [Struct](src/Struct) *Inprogress*
+* [Array](src/Array) 
+    * Code done :heavy_check_mark:
+    * Readme done: :heavy_check_mark:
+* [Basics](src/Basics)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Cli](src/Cli)
+    * Code done :x:
+    * Readme done: :x:
+* [Defer](src/Defer)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [For](src/For)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Functions](src/Functions)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [HelloWorld](src/HelloWorld)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [If](src/If)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Imports](src/Imports)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Interface](src/Interface)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Map](src/Map)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Mocking](src/Mocking)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [OnlineImports](src/OnlineImports)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Pointers](src/Pointers)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [PublicPrivate](src/PublicPrivate)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [SimpleApi](src/SimpleApi)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
+* [Struct](src/Struct)
+    * Code done :heavy_check_mark:
+    * Readme done: :x:
 * [Tests](src/Tests)
-* [TypeConversions](src/TypeConversions) *Inprogress*
+    * Code done :heavy_check_mark:
+    * Readme done: :heavy_check_mark:
+* [TypeConversions](src/TypeConversions)
+    * Code done :x:
+    * Readme done: :x:
 
 
 # Roadmap
