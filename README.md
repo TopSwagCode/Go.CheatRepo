@@ -9,7 +9,7 @@ So I went ahead and created this repository to help other people getting started
 Current Sections:
 
 * [Array](src/Array)
-* [Basics](src/Basics) *Inprogress*
+* [Basics](src/Basics)  :heavy_check_mark:
 * [Cli](src/Cli) *Inprogress*
 * [Defer](src/Defer) *Inprogress*
 * [For](src/For) *Inprogress*
