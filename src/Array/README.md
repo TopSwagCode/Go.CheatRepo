@@ -106,9 +106,9 @@ len=10 cap=10 [0 1 4 9 16 25 36 49 64 81]
 
 ## Going through all the elements in a array
 
-Besides the For loop, there are 3 other ways running through an array / slice
+Besides the For loop, there are 3 other ways running through an array / slice.
 
-Getting index and value
+Getting index and value:
 ```Go
 for i,v := range slice {
     fmt.Printf("slice**%d = %d\n", i, v)
@@ -128,7 +128,7 @@ slice**9 = 81
 
 ```
 
-getting index only
+getting index only:
 ```Go
 for i := range slice {
     fmt.Println("slice**index: ", i)
