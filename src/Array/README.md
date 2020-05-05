@@ -6,6 +6,7 @@ Create and print a Array:
 ```Go
 primes := [6]int{2, 3, 5, 7, 11, 13}
 fmt.Println(primes)
+
 // Result in 
 [2 3 5 7 11 13]
 ```
@@ -15,6 +16,7 @@ A way to work with arrays is getting an item from it at index.
 ```Go
 var number int = primes[0]
 fmt.Println(number)
+
 // Result in 
 2
 ```
@@ -24,6 +26,7 @@ Similar you would be able to get a slice / range of items.
 ```Go
 var slice []int = primes[1:4]
 fmt.Println(slice)
+
 // Results in Item at index 1,2,3
 [3 5 7]
 ```
@@ -33,6 +36,7 @@ If you would like to update an item in the array
 ```Go
 primes[2] = 1337
 fmt.Println(primes)
+
 // Result in 
 [2 3 1337 7 11 13]
 ```
@@ -42,7 +46,8 @@ Updating the array would also update the slice. So if you printed  out the same 
 ```Go
 var slice []int = primes[1:4]
 fmt.Println(slice)
-// Results in Item at index 1,2,3
+
+// Result in Item at index 1,2,3
 [3 1337 7]
 ```
 
@@ -51,6 +56,10 @@ If you ever needed a total number of elements or the max capacity of it you coul
 ```Go
 fmt.Println("Length of primes:",len(primes))
 fmt.Println("Cap of primes:",cap(primes))
+
+// Result in
+Length of primes: 6
+Cap of primes: 6
 ```
 
 ## Working with slices
@@ -63,6 +72,7 @@ In Go we can use ```make()``` for creating slices. Below we can see how creating
 ```Go
 slice := make([]int, 5)
 fmt.Printf("len=%d cap=%d %v\n", len(slice), cap(slice), slice)
+
 // Result in
 len=5 cap=5 [0 0 0 0 0]
 ```
@@ -79,6 +89,7 @@ for i := 0; i < 10; i++ {
     slice = append(slice, i*i)
     fmt.Printf("len=%d cap=%d %v\n", len(slice), cap(slice), slice)
 }
+
 // Result in
 len=0 cap=5 []
 len=1 cap=5 [0]
