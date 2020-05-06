@@ -17,7 +17,7 @@ func main() {
 
 	// What will be printed here? Hello or World?
 	m := "Hello"
-	defer fmt.Println("set variable to Hello and defer print: ",m)
+	defer fmt.Println("set variable to Hello and defer print: ", m)
 	m = "world"
 	fmt.Println("set variable to World and print: ", m)
 
