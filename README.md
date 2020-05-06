@@ -15,26 +15,15 @@ Current Sections:
 |---|---|---|
 | [Array](src/Array) | :heavy_check_mark:  | :heavy_check_mark:  |
 | [Basics](src/Basics)  |  :heavy_check_mark: |  :x: |
+| [Cli](src/Cli)  | :x:  |  :x: |
+| [Defer](src/Defer)  | :heavy_check_mark:  | :x:  |
+| [For](src/For)  |  :heavy_check_mark: | :x:  |
+| [Functions](src/Functions)  | :heavy_check_mark:  | :x:  |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 |   |   |   |
 
-* [Array](src/Array) 
-    * Code done :heavy_check_mark:
-    * Readme done: :heavy_check_mark:
-* [Basics](src/Basics)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Cli](src/Cli)
-    * Code done :x:
-    * Readme done: :x:
-* [Defer](src/Defer)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [For](src/For)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Functions](src/Functions)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
 * [HelloWorld](src/HelloWorld)
     * Code done :heavy_check_mark:
     * Readme done: :x:
