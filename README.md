@@ -1,7 +1,6 @@
 # Go.CheatRepo
 
-[![https://goreportcard.com/report/github.com/TopSwagCode/Go.CheatRepo](https://goreportcard.com/badge/github.com/TopSwagCode/Go.CheatRepo)](https://goreportcard.com/report/github.com/TopSwagCode/Go.CheatRepo)
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/TopSwagCode/Go.CheatRepo)](https://goreportcard.com/report/github.com/TopSwagCode/Go.CheatRepo)
 
 This is a small "Cheat repo", I made for myself and ofcourse any one else who might find it usefull. More or less cheat sheet in repository format.
 
