@@ -7,7 +7,6 @@ import (
 	"testing"
 )
 
-
 // Internal Mocking
 func TestWelcomeEmail(t *testing.T) {
 
@@ -58,12 +57,11 @@ func (m MockMailSender) SendFrom(from, to, subject, body string) error {
 	return m.SendFromFunc(from, to, subject, body)
 }
 
-
 // External mocking
 func TestWelcomeSms(t *testing.T) {
 
 	// Creating both Mock and Real to show that we can create interface for other packages
-	smsSender := notificationservices.SmsSender{SmsGateway:"Some gateway far far away"}
+	smsSender := notificationservices.SmsSender{SmsGateway: "Some gateway far far away"}
 
 	var sb strings.Builder
 
