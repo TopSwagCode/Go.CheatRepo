@@ -52,4 +52,3 @@ func measure(g geometry) {
 	fmt.Println(g.area())
 	fmt.Println(g.perimeter())
 }
-
