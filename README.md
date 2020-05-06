@@ -14,7 +14,7 @@ Current Sections:
 | Section  | Code done  |  Readme done |
 |---|---|---|
 | [Array](src/Array) | :heavy_check_mark:  | :heavy_check_mark:  |
-| [Basics](src/Basics)  |  :heavy_check_mark: |  :x: |
+| [Basics](src/Basics)  |  :heavy_check_mark: |  :heavy_check_mark: |
 | [Cli](src/Cli)  | :x:  |  :x: |
 | [Defer](src/Defer)  | :heavy_check_mark:  | :x:  |
 | [For](src/For)  |  :heavy_check_mark: | :x:  |
