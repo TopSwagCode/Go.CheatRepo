@@ -19,50 +19,19 @@ Current Sections:
 | [Defer](src/Defer)  | :heavy_check_mark:  | :x:  |
 | [For](src/For)  |  :heavy_check_mark: | :x:  |
 | [Functions](src/Functions)  | :heavy_check_mark:  | :x:  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-
-* [HelloWorld](src/HelloWorld)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [If](src/If)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Imports](src/Imports)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Interface](src/Interface)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Map](src/Map)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Mocking](src/Mocking)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [OnlineImports](src/OnlineImports)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Pointers](src/Pointers)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [PublicPrivate](src/PublicPrivate)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [SimpleApi](src/SimpleApi)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Struct](src/Struct)
-    * Code done :heavy_check_mark:
-    * Readme done: :x:
-* [Tests](src/Tests)
-    * Code done :heavy_check_mark:
-    * Readme done: :heavy_check_mark:
-* [TypeConversions](src/TypeConversions)
-    * Code done :x:
-    * Readme done: :x:
+| [HelloWorld](src/HelloWorld)  | :heavy_check_mark:  | :x:  |
+| [If](src/If)  | :heavy_check_mark:  | :x:  |
+| [Imports](src/Imports)  | :heavy_check_mark:  | :x:  |
+| [Interface](src/Interface)  | :heavy_check_mark:  | :x:  |
+| [Map](src/Map)  | :heavy_check_mark:  | :x:  |
+| [Mocking](src/Mocking)  | :heavy_check_mark:  | :x:  |
+| [OnlineImports](src/OnlineImports)  | :heavy_check_mark:  | :x:  |
+| [Pointers](src/Pointers)  | :heavy_check_mark:  | :x:  |
+| [PublicPrivate](src/PublicPrivate)  |  :heavy_check_mark: | :x:  |
+| [SimpleApi](src/SimpleApi)  | :heavy_check_mark:  | :x:  |
+| [Struct](src/Struct)  | :heavy_check_mark:  | :x:  |
+| [Tests](src/Tests)  |  :heavy_check_mark: | :heavy_check_mark:  |
+| [TypeConversions](src/TypeConversions)  |  :x: | :x:  |
 
 
 # Roadmap
