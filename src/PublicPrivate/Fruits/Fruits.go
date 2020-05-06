@@ -23,12 +23,12 @@ type Banana struct {
 
 // PrintWeight Prints out the weight of the Banana
 func (b Banana) PrintWeight() {
-	fmt.Println("Weight:",b.Weight)
+	fmt.Println("Weight:", b.Weight)
 }
 
 // PrintColour Prints out the Colour of the Banana
 func (b Banana) PrintColour() {
-	fmt.Println("Colour:",b.Colour)
+	fmt.Println("Colour:", b.Colour)
 }
 
 // Apple -> The most expensive fruit. Who knew you needed so many adapters to eat an apple?
@@ -39,12 +39,12 @@ type Apple struct {
 
 // PrintWeight Prints out the weight of the Apple
 func (a Apple) PrintWeight() {
-	fmt.Println("Weight:",a.weight)
+	fmt.Println("Weight:", a.weight)
 }
 
 // PrintColour Prints out the Colour of the Apple
 func (a Apple) PrintColour() {
-	fmt.Println("Colour:",a.Colour)
+	fmt.Println("Colour:", a.Colour)
 }
 
 // Orange is the best fruit. Because the name describes it's colour.
@@ -55,12 +55,12 @@ type Orange struct {
 
 // PrintWeight Prints out the weight of the Orange
 func (o Orange) PrintWeight() {
-	fmt.Println("Weight:",o.weight)
+	fmt.Println("Weight:", o.weight)
 }
 
 // PrintColour Prints out the Colour of the Orange
 func (o Orange) PrintColour() {
-	fmt.Println("Colour:",o.colour)
+	fmt.Println("Colour:", o.colour)
 }
 
 // PrintFruit Prints out the Type, Weight and Colour of Fruit
