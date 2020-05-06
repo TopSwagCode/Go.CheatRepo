@@ -8,24 +8,24 @@ func main() {
 	fmt.Println("Primes:", primes)
 
 	var number int = primes[0]
-	fmt.Println("Index 0:",number)
+	fmt.Println("Index 0:", number)
 
 	var slice []int = primes[1:4]
-	fmt.Println("Slice 1:4 :",slice)
+	fmt.Println("Slice 1:4 :", slice)
 
 	primes[2] = 1337
-	fmt.Println("Primes:",primes)
-	fmt.Println("Slice:",slice) // The slice still points at the same 3 spots even when array changes
+	fmt.Println("Primes:", primes)
+	fmt.Println("Slice:", slice) // The slice still points at the same 3 spots even when array changes
 
 	slice = primes[:2]
-	fmt.Println("Slice :2 :",slice)
+	fmt.Println("Slice :2 :", slice)
 
 	slice = primes[2:]
-	fmt.Println("Slice 2: :",slice)
+	fmt.Println("Slice 2: :", slice)
 
 	// To get the length and cap of a array
-	fmt.Println("Length of primes:",len(primes))
-	fmt.Println("Cap of primes:",cap(primes))
+	fmt.Println("Length of primes:", len(primes))
+	fmt.Println("Cap of primes:", cap(primes))
 
 	fmt.Println()
 
