@@ -1,5 +1,8 @@
 # Go.CheatRepo
 
+[![https://goreportcard.com/report/github.com/TopSwagCode/Go.CheatRepo](https://goreportcard.com/badge/github.com/TopSwagCode/Go.CheatRepo)](https://goreportcard.com/report/github.com/TopSwagCode/Go.CheatRepo)
+
+
 This is a small "Cheat repo", I made for myself and ofcourse any one else who might find it usefull. More or less cheat sheet in repository format.
 
 I made this because I "hate" going through long and slow tutorials / blog posts when I want to learn something new. Some times I just want a bunch of code examples that are ready to be run, that shows me exatly what stuff does.
