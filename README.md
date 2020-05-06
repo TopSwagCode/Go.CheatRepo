@@ -11,6 +11,12 @@ So I went ahead and created this repository to help other people getting started
 
 Current Sections:
 
+| Section  | Code done  |  Readme done |
+|---|---|---|
+| [Array](src/Array) | :heavy_check_mark:  | :heavy_check_mark:  |
+| [Basics](src/Basics)  |  :heavy_check_mark: |  :x: |
+|   |   |   |
+
 * [Array](src/Array) 
     * Code done :heavy_check_mark:
     * Readme done: :heavy_check_mark:
