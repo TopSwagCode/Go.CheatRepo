@@ -25,14 +25,14 @@ func main() {
 
 	fmt.Println()
 
-	fmt.Println(Point{1, 2})
+	fmt.Println(point{1, 2})
 
-	point := Point{1, 2}
-	fmt.Println(point.X)
+	p := point{1, 2}
+	fmt.Println(p.X)
 
-	pointPointer := &point
+	pointPointer := &p
 	pointPointer.X = 3
-	fmt.Println(point.X)
+	fmt.Println(p.X)
 
 	fmt.Println()
 
@@ -65,15 +65,19 @@ func main() {
 	*/
 }
 
-type Point struct {
+type point struct {
 	X int
 	Y int
 }
 
 func foo(x int) {
-	x = 1
+	x = x * x
+	fmt.Println("answer updat", &x)
+	fmt.Println("answer updat", x)
 }
 
 func fooPointer(x *int) {
-	*x = 1
+	*x = *x * *x
+	fmt.Println("answer updat", x)
+	fmt.Println("answer updat", *x)
 }
