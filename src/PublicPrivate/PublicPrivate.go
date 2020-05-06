@@ -1,59 +1,76 @@
 package main
 
 import (
-	"./Fruits"
+	"./fruits"
 	"encoding/json"
 	"fmt"
 )
 
 func main() {
 
+	fmt.Println("Using fruits interface to print the different types of fruit and see what fields get left out.")
 	// pear := Fruits.pear {} <-- 404 - Pear not found
+	// Because pear is in lowercase and therefor not exported
 
-	banana := Fruits.Banana{
+	banana := fruits.Banana{
 		Colour: "Yellow",
 		Weight: 4,
 	}
-	Fruits.PrintFruit(banana)
+	fruits.PrintFruit(banana)
 
-	apple := Fruits.Apple{
+	apple := fruits.Apple{
 		Colour: "Green",
 	}
-	Fruits.PrintFruit(apple)
+	fruits.PrintFruit(apple)
 
-	orange := Fruits.Orange{}
-	Fruits.PrintFruit(orange)
+	orange := fruits.Orange{}
+	fruits.PrintFruit(orange)
 
-	passionFruit := PassionFruit{
+	passionFruit := passionFruit{
 		colour: "Purple",
 		weight: 4,
 	}
-	Fruits.PrintFruit(passionFruit)
+	fruits.PrintFruit(passionFruit)
 
 	fmt.Println()
+	fmt.Println("Using built in Json package to get json strings from objects, so we can see fields getting left out.")
 
-	bJson, _ := json.Marshal(banana)
+	bJson, e := json.Marshal(banana)
+	if e != nil {
+		fmt.Println(e)
+	}
 	fmt.Println("Banana:", string(bJson))
 
-	aJson, _ := json.Marshal(apple)
+	aJson, e := json.Marshal(apple)
+	if e != nil {
+		fmt.Println(e)
+	}
 	fmt.Println("Apple", string(aJson))
 
-	oJson, _ := json.Marshal(orange)
+	oJson, e := json.Marshal(orange)
+	if e != nil {
+		fmt.Println(e)
+	}
 	fmt.Println("Orange", string(oJson))
 
-	pfJson, _ := json.Marshal(passionFruit)
+	pfJson, e := json.Marshal(passionFruit)
+	if e != nil {
+		fmt.Println(e)
+	}
 	fmt.Println("Passion fruit", string(pfJson))
 }
 
-type PassionFruit struct {
+type passionFruit struct {
 	colour string
 	weight int
 }
 
-func (o PassionFruit) GetWeight() int {
-	return o.weight
+// Prints out the weight of the Passion fruit
+func (pf passionFruit) PrintWeight() {
+	fmt.Println("Weight:", pf.weight)
 }
 
-func (o PassionFruit) GetColour() string {
-	return o.colour
+// Prints out the Colour of the Passion fruit
+func (pf passionFruit) PrintColour() {
+	fmt.Println("Colour:", pf.colour)
 }

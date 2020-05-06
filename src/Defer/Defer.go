@@ -8,12 +8,12 @@ import (
 func main() {
 
 	// Timer example using Defer
-	stop := StartTimer("Sample Timer")
+	stop := startTimer("Sample Timer")
 	defer stop()
 
 	defer fmt.Println("Have a nice day! :) ")
 
-	DeferInsideFunction()
+	deferInsideFunction()
 
 	// What will be printed here? Hello or World?
 	m := "Hello"
@@ -45,7 +45,7 @@ func main() {
 
 }
 
-func StartTimer(name string) func() {
+func startTimer(name string) func() {
 	t := time.Now()
 	fmt.Println(name, "started")
 	return func() {
@@ -54,7 +54,7 @@ func StartTimer(name string) func() {
 	}
 }
 
-func DeferInsideFunction() {
+func deferInsideFunction() {
 	fmt.Println("Working in function")
 	defer fmt.Println("Defer inside function")
 	fmt.Println("Done working inside function")

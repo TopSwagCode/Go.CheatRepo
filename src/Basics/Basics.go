@@ -7,7 +7,7 @@ var c, python, java bool
 func main() {
 
 	// One way
-	var i int = 1
+	const i int = 1
 	var j float64 = 2
 	fmt.Println("i:", i, "j:", j)
 	j = j / 3.14
@@ -44,7 +44,7 @@ func main() {
 
 	// Alternative initializers
 	var isFriday, isMonday, javaIsAwesome = true, false, "no!"
-	fmt.Println(x, y, isFriday, isMonday, javaIsAwesome)
+	fmt.Println(isFriday, isMonday, javaIsAwesome)
 
 	var a, s int = 1, 2
 	fmt.Println(a, s)
