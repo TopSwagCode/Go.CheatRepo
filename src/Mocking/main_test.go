@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./notificationServices"
+	"./notificationservices"
 	"strconv"
 	"strings"
 	"testing"
@@ -63,7 +63,7 @@ func (m MockMailSender) SendFrom(from, to, subject, body string) error {
 func TestWelcomeSms(t *testing.T) {
 
 	// Creating both Mock and Real to show that we can create interface for other packages
-	smsSender := notificationServices.SmsSender{SmsGateway:"Some gateway far far away"}
+	smsSender := notificationservices.SmsSender{SmsGateway:"Some gateway far far away"}
 
 	var sb strings.Builder
 

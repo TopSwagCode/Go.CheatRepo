@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println()
 
-	if x := 100; x < Sample() {
+	if x := 100; x < sample() {
 		fmt.Println(x, "is lower than Sample")
 	} else {
 		fmt.Println(x, "is higher than Sample")
@@ -56,6 +56,6 @@ func main() {
 
 }
 
-func Sample() int {
+func sample() int {
 	return 1337
 }

@@ -1,4 +1,4 @@
-package notificationServices
+package notificationservices
 
 import "fmt"
 

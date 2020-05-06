@@ -15,34 +15,34 @@ type pear struct {
 	Weight int
 }
 
-// Banananananana. The fruit of minions!
+// Banana also know as Banananananana. The fruit of minions!
 type Banana struct {
 	Colour string
 	Weight int
 }
 
-// Prints out the weight of the Banana
+// PrintWeight Prints out the weight of the Banana
 func (b Banana) PrintWeight() {
 	fmt.Println("Weight:",b.Weight)
 }
 
-// Prints out the Colour of the Banana
+// PrintColour Prints out the Colour of the Banana
 func (b Banana) PrintColour() {
 	fmt.Println("Colour:",b.Colour)
 }
 
-// Apple. The most expensive fruit. Who knew you needed so many adapters to eat an apple?
+// Apple -> The most expensive fruit. Who knew you needed so many adapters to eat an apple?
 type Apple struct {
 	Colour string
 	weight int
 }
 
-// Prints out the weight of the Apple
+// PrintWeight Prints out the weight of the Apple
 func (a Apple) PrintWeight() {
 	fmt.Println("Weight:",a.weight)
 }
 
-// Prints out the Colour of the Apple
+// PrintColour Prints out the Colour of the Apple
 func (a Apple) PrintColour() {
 	fmt.Println("Colour:",a.Colour)
 }
@@ -53,17 +53,17 @@ type Orange struct {
 	weight int
 }
 
-// Prints out the weight of the Orange
+// PrintWeight Prints out the weight of the Orange
 func (o Orange) PrintWeight() {
 	fmt.Println("Weight:",o.weight)
 }
 
-// Prints out the Colour of the Orange
+// PrintColour Prints out the Colour of the Orange
 func (o Orange) PrintColour() {
 	fmt.Println("Colour:",o.colour)
 }
 
-// Prints out the Type, Weight and Colour of Fruit
+// PrintFruit Prints out the Type, Weight and Colour of Fruit
 func PrintFruit(f Fruit) {
 	fmt.Printf("Type: %T", f)
 	fmt.Println()
