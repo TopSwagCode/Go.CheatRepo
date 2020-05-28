@@ -31,13 +31,13 @@ func pointHandler(w http.ResponseWriter, r *http.Request) {
 
 	switch r.Method {
 	case "GET":
-		// Just send out the JSON version of 'tom'
+
 		j, _ := json.Marshal(_p)
 		w.Header().Set("Content-Type", "application/json")
 
 		w.Write(j)
 	case "POST":
-		// Decode the JSON in the body and overwrite 'tom' with it
+
 		d := json.NewDecoder(r.Body)
 		p := &point{}
 		err := d.Decode(p)
