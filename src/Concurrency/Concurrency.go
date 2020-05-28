@@ -99,8 +99,8 @@ func sample8(){
 
 	for isWaiting {
 		select {
-		case isDone := <-done:
-			fmt.Println("FINALLY DONE", isDone)
+		case <-done:
+			fmt.Println("FINALLY DONE")
 			isWaiting = false
 		default:
 			fmt.Println("Wait for it!")
@@ -108,6 +108,5 @@ func sample8(){
 		}
 	}
 
-	<-done // Ignore return.
 	fmt.Println("Finally!")
 }
