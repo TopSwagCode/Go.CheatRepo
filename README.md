@@ -15,6 +15,7 @@ Current Sections:
 | [Array](src/Array) | :heavy_check_mark:  | :heavy_check_mark:  |
 | [Basics](src/Basics)  |  :heavy_check_mark: |  :heavy_check_mark: |
 | [Cli](src/Cli)  | :x:  |  :x: |
+| [Concurrency](src/Concurrency) | :x: | :x: |
 | [Defer](src/Defer)  | :heavy_check_mark:  | :x:  |
 | [For](src/For)  |  :heavy_check_mark: | :x:  |
 | [Functions](src/Functions)  | :heavy_check_mark:  | :x:  |
